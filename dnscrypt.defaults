@@ -1,0 +1,19 @@
+# Defaults for dnscrypt initscript
+# sourced by /etc/init.d/dnscrypt
+# installed at /etc/default/dnscrypt by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# DNS Server configuration (required)
+# see https://dnscrypt.org for a list of supported services
+RESOLVER_ADDRESS="185.19.104.45:443"
+PROVIDER_NAME="2.dnscrypt-cert.ns8.uk.dns.opennic.glue"
+PROVIDER_KEY="A17C:06FC:BA21:F2AC:F4CD:9374:016A:684F:4F56:564A:EB30:A422:3D9D:1580:A461:B6A6"
+
+# user to use (required)
+USER="dnscrypt"
+
+# Optional arguments passed to dnscrypt-proxy
+DAEMON_OPTS=""
