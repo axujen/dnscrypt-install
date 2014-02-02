@@ -8,6 +8,8 @@
 # Short-Description: Start dnscrypt
 # Description:       Encrypt DNS queries.
 ### END INIT INFO
+# This daemon is modified from http://antix.freeforums.org/post23679.html#p23679
+
 DAEMON="/usr/local/sbin/dnscrypt-proxy"
 NAME="dnscrypt"
 
